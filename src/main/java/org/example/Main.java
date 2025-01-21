@@ -2,7 +2,7 @@ package org.example;
 public class Main {
 
     public String getString(Second second){
-        return second.getSampleString() + second.getSecondString();
+        return second.getSampleString() + " " + second.getSecondString();
     }
 
     public static void main(String[] args) {
